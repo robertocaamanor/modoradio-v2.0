@@ -9,7 +9,7 @@ html,body
 }
 
 body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Fira Sans", sans-serif; }
 
 ul, li {
   list-style-type: none; }
@@ -168,7 +168,12 @@ footer {
 
 @media (max-width: 767px) {
   #slides {
-    display: none; } }
+    display: none; }
+
+  .thumb {
+    float: center;
+  }
+ }
 
 /* IFrames */
 
@@ -207,4 +212,8 @@ footer {
 
 .categoria-single ul li {
   display: inline-block;
+}
+
+.img-responsive {
+    margin: 0 auto;
 }

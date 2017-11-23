@@ -15,7 +15,10 @@
 						<div class="col-md-6 same-height">							
 							<article class="articulos_lista">								
 								<div class="thumb"><a href="<?php the_permalink();?>">
-									<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'list_articles_thumbs' ); } ?>
+									<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'list_articles_thumbs', array(
+							    'alt' => 'Responsive image',
+							    'class' => 'img-responsive'
+							) ); } ?>
 								</a></div>
 								<div class="titulos">
 									<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
@@ -34,7 +37,7 @@
 
 				</div>
 				
-				<div class="col-xs-3">
+				<div class="col-md-3">
 					<?php get_sidebar(); ?>
 				</div>
 			</div>

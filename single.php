@@ -36,7 +36,7 @@
 					</div>
 				</section>
 				<section class="comentarios">
-					<h1>Comentarios</h1>
+					<?php comments_template( '', true ); ?>
 				</section>
 				</div>
 				<div class="col-md-3">
