@@ -26,19 +26,7 @@
 				</section>
 				</div>
 				<div class="col-md-3">
-					<aside>
-						<!--<h3>Señal en vivo</h3>
-						<audio controls id="player2" preload="none" autoplay="true" width="100%" src="http://190.3.169.36:8056/live"></audio>-->
-						<section class="widget">
-							<h3>Lista de links</h3>
-							<ul>
-								<li><a href="#">Link 1</a></li>
-								<li><a href="#">Link 2</a></li>
-								<li><a href="#">Link 3</a></li>
-								<li><a href="#">Link 4</a></li>
-							</ul>
-						</section>
-					</aside>
+					<?php get_sidebar(); ?>
 				</div>
 			</div>
 		</div>
