@@ -18,7 +18,7 @@ add_action('wp_head', 'mbe_wp_head');
 function mbe_wp_head(){
     echo '<style>'
     .PHP_EOL
-    .'body{ padding-top: 70px !important; }'
+    .'body{ padding-top: 40px !important; }'
     .PHP_EOL
     .'body.body-logged-in .navbar-fixed-top{ top: 46px !important; }'
     .PHP_EOL
