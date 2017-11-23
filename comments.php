@@ -92,21 +92,21 @@
 				d3 		= document.getElementById("d3");
 				
 			if (x == null || x == "") {
-				d1.innerHTML = "<?php echo __('Name is required', 'wp_babobski'); ?>";
+				d1.innerHTML = "<?php echo __('El nombre es obligatorio', 'wp_babobski'); ?>";
 				z = false;
 			} else {
 				d1.innerHTML = "";
 			}
 			
 			if (y == null || y == "") {
-				d2.innerHTML = "<?php echo __('Email is required', 'wp_babobski'); ?>";
+				d2.innerHTML = "<?php echo __('El e-mail es obligatorio', 'wp_babobski'); ?>";
 				z = false;
 			} else {
 				d2.innerHTML = "";
 			}
 			
 			if (z == null || z == "") {
-				d3.innerHTML = "<?php echo __('Comment is required', 'wp_babobski'); ?>";
+				d3.innerHTML = "<?php echo __('Debe escribir un comentario', 'wp_babobski'); ?>";
 				z = false;
 			} else {
 				d3.innerHTML = "";
