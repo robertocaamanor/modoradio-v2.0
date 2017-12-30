@@ -25,7 +25,7 @@
 		      </button>
 		      <a class="navbar-brand" href="<?php echo get_option('home'); ?>"><img style="max-width:100px; margin-top: -7px;" alt="Modoradio" src="http://i.imgur.com/SBHMTB7.png"></a>
 		      <ul class="nav navbar-vivo">
-		      	<li class="active"><a href="#"><span class="glyphicon glyphicon-volume-up"></span> En vivo <span class="sr-only">(current)</span></a></li>
+		      	<li class="active"><a href="http://envivo.modoradio.cl"><span class="glyphicon glyphicon-volume-up"></span> En vivo <span class="sr-only">(current)</span></a></li>
 		      </ul>
 		    </div>
 
